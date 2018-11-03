@@ -13,3 +13,7 @@ h1 {
   padding: 0;
   margin: 3px;
 }
+
+body {
+  background: lightgrey;
+}
