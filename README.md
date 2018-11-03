@@ -12,10 +12,6 @@ react will open a browser to [http://localhost:3000](http://localhost:3000) to v
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
