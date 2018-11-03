@@ -16,6 +16,18 @@ class Game extends Component {
     this.initGame();
   }
 
+  initGame() {
+    this.memoryCards.generateCardSet();
+    this.setState({
+      turnNo : 1,
+      pairsFound : 0,
+      numClicksWithinTurn : 0,
+      firstId : undefined,
+      secondId : undefined
+    });
+  }
 
+
+}
 
 export default Game;
